@@ -1,0 +1,73 @@
+# Exécutables
+minishell
+*.out
+*.exe
+
+# Fichiers objets et dépendances
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.lib
+
+# Fichiers temporaires
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Répertoires de compilation
+build/
+dist/
+obj/
+
+# Historique du shell
+.shell_history
+.history
+.bash_history
+
+# IDE et éditeurs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.vim
+.vim/
+*.netrwhist
+*~
+
+# Environnement
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Fichiers de tests
+test_output/
+*.test
+
+# Fichiers de configuration personnels
+.config
+.local
+
+# macOS spécifiques
+.AppleDouble
+.LSOverride
+._*
+.apdisk
+
+# Fichiers de sauvegarde
+*.bak
+*.orig
+*.backup
+
+# Fichiers générés
+TAGS
+ctags
+.ctags
+.tags
